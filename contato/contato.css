@@ -2,9 +2,9 @@
 .content_contato{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    padding: 40px 0px;
-    height: 100%;
+    align-items: center;
+    background-color: aliceblue;
+    height: 600px;
 }
 .content_contato h3{
     font-size: 2.5rem;
@@ -17,8 +17,9 @@
     align-items: center;
     flex-direction: column;
     width: 350px;
-    height: 450px;
+    height: 500px;
     background-color: #9d06f3;
+    border-radius: 5px;
     padding: 10px 30px;
 }
 .form{
