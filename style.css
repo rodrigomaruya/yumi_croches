@@ -119,7 +119,7 @@ h2{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding: 5px;
-    height: 100vh;
+    height: 100%;
     background-color:aliceblue;
     overflow: auto;
 
