@@ -17,6 +17,7 @@ main{
     background-color:aliceblue;
     margin: auto;
     max-width: 1000px;
+    height: 100vh;
     
 }
 .principalHeader{
@@ -79,6 +80,7 @@ h2{
 }
 .lista a{
     text-decoration: none;
+    color: #eee;
 }
 .produtosLista li{
     display: block;
@@ -90,7 +92,6 @@ h2{
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
 }
 .principalSecundario{
     margin-top: 10px;
@@ -104,6 +105,10 @@ h2{
 
 .principalSecundario a{
     text-decoration: none;
+}
+.animacao{
+    width: 100%;
+    position: relative;
 }
 .caixaProdutos{
     position: relative;
@@ -229,19 +234,32 @@ footer{
     width: 500px;
     height: 500px;
 }
+
+.divAnimacao{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+}
+.imgRedondo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
 i{
     font-size: 30px;
 }
-@media (max-width:376px){
+@media (min-width:360px) and (max-width:600px){
     .caixaProdutos{
         grid-template-columns: repeat(2,1fr);
     }
     .imagemProduto{
-
         width: 100% !important;
     }
     .principalHeader{
         justify-content: center;
+        height: 100px;
     }
     .classeArticle p{
         font-size: 14px;
@@ -263,5 +281,17 @@ i{
     }
     .imgClose{
         margin-left:90%;
+    }
+    .logo{
+        height: 70px;
+        width: 70px ;
+    }
+    .logoImagem{
+        height: 70px;
+        width: 70px ;
+    }
+    .conteudoH1{
+        height: 55px;
+        font-size: .9rem;
     }
 }

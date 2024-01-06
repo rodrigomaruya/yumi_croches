@@ -6,6 +6,7 @@ const content_grid=document.getElementById("content_grid")
 const caixaProdutos=document.getElementById("caixaProdutos")
 const produtoSecao=[...document.querySelectorAll(".produtoSecao")]
 const btn_close=document.getElementById("btn_close")
+
 produtos.addEventListener("click",()=>{
     produtosLista.classList.remove("ocultar")   
 })
@@ -82,8 +83,6 @@ const mostrar=()=>{
     classeArticle.setAttribute("class","classeArticle")
     produtoSecao.appendChild(classeArticle)
 
-    })
-    
-    
+    })   
 }
 mostrar()
