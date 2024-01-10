@@ -8,7 +8,7 @@ const produtoSecao=[...document.querySelectorAll(".produtoSecao")]
 const btn_close=document.getElementById("btn_close")
 
 produtos.addEventListener("click",()=>{
-    produtosLista.classList.remove("ocultar")   
+    produtosLista.classList.toggle("ocultar")   
 })
 const arr=["baleia","bichinho_Verde","dinossauro","kirby","lula","patinho","pato","pokebola","sorvete","ursinho","vaca","pintinho"]
 
